@@ -1,0 +1,4 @@
+import Reveal from '../components/Reveal';import {profile} from '../data/content';
+const cards=[['Identity',`${profile.name}, ${profile.age}. ${profile.role} based in ${profile.location}.`],['Philosophy','Code is a creative medium. Every pixel and every function should feel intentional.'],['Journey','From curiosity to the MERN stack and cloud, learning by shipping real products.'],['Interests','Immersive interfaces, motion design, scalable backends and cloud architecture.'],['Approach','Understand the problem, design with restraint, build cleanly, deploy and iterate.']];
+export default function About(){return <section id="about" className="sec"><Reveal><p className="eyebrow">01 — About</p><h2>Crafting the <em>future</em> of digital experiences.</h2></Reveal>
+ <div className="grid g3">{cards.map(([t,x],i)=><Reveal key={t} delay={i*.08}><div className="card glass"><h3>{t}</h3><p>{x}</p></div></Reveal>)}</div></section>}
