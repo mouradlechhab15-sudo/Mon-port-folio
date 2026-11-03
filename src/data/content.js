@@ -1,6 +1,6 @@
 import {Code2,Palette,Braces,Atom,Server,Route,Database,GitBranch,Cloud} from 'lucide-react';
 export const profile={name:'Mourad Lechhab',age:22,brand:'NØX',role:'Full Stack Developer & Creative Digital Artist',location:'Morocco',
- email:'Mouradlechhab15@gmail.com',whatsapp:'212760434854',instagram:'https://www.instagram.com/mourad_lechhab?exln=M3RvdHF3ZjdtdnF4&utm_source=qr',github:'https://github.com/mouradlechhab15-sudo',linkedin:'https://www.linkedin.com/in/mourad-lechhab-17850138a?utm_source=share_via&utm_content=profile&utm_medium=member_ios'};
+ email:'your@email.com',whatsapp:'212600000000',instagram:'https://instagram.com/yourhandle',github:'https://github.com/yourhandle',linkedin:'https://linkedin.com/in/yourhandle'};
 export const nav=['About','Skills','Projects','Experience','Contact'];
 export const skills=[
  {name:'HTML5',cat:'Frontend',level:95,icon:Code2},{name:'CSS3',cat:'Frontend',level:92,icon:Palette},
@@ -9,8 +9,8 @@ export const skills=[
  {name:'MongoDB',cat:'Database',level:82,icon:Database},{name:'Git & GitHub',cat:'Tooling',level:88,icon:GitBranch},
  {name:'Microsoft Azure',cat:'Cloud',level:75,icon:Cloud}];
 export const projects=[
- {title:'StockFlow',sub:'Inventory Management SaaS',desc:'A multi-tenant inventory platform with real-time stock tracking, low-stock alerts and analytics.',tech:['React','Node.js','Express','MongoDB'],demo:'https://projcet-mourad-lechhab.vercel.app',repo:'https://github.com/mouradlechhab15-sudo/Projcet-Mourad-Lechhab',g:'linear-gradient(135deg,#6d5dfc,#1b2a6b)'},
- {title:'Velora',sub:'Premium E-commerce Experience',desc:'A luxury storefront with fluid product transitions, cart logic and a streamlined checkout.',tech:['React','Framer Motion','Node.js'],demo:'https://mourad-lechhab.vercel.app/',repo:'https://github.com/mouradlechhab15-sudo/Mourad-lechhab',g:'linear-gradient(135deg,#b9a7ff,#5aa9ff)'},
+ {title:'StockFlow',sub:'Inventory Management SaaS',desc:'A multi-tenant inventory platform with real-time stock tracking, low-stock alerts and analytics.',tech:['React','Node.js','Express','MongoDB'],demo:'#',repo:'https://github.com/yourhandle/stockflow',g:'linear-gradient(135deg,#6d5dfc,#1b2a6b)'},
+ {title:'Velora',sub:'Premium E-commerce Experience',desc:'A luxury storefront with fluid product transitions, cart logic and a streamlined checkout.',tech:['React','Framer Motion','Node.js'],demo:'#',repo:'https://github.com/yourhandle/velora',g:'linear-gradient(135deg,#b9a7ff,#5aa9ff)'},
  {title:'Cloud Portfolio',sub:'Azure Deployment',desc:'A portfolio shipped through a CI/CD pipeline on Microsoft Azure with custom domain and HTTPS.',tech:['Azure','GitHub Actions','Vite'],demo:'#',repo:'https://github.com/yourhandle/cloud-portfolio',g:'linear-gradient(135deg,#2b1b5e,#4fa3ff)'}];
 export const experience=[{year:'2024 — Now',title:'Freelance Full Stack Developer',text:'Building web products for clients, from design to deployment.'},{year:'2022 — 2024',title:'Self-taught Journey',text:'Mastered the MERN stack through projects, and cloud deployment on Azure.'}];
 // Add your MP3s to public/music/ then list them here.
