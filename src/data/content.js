@@ -1,6 +1,6 @@
 import {Code2,Palette,Braces,Atom,Server,Route,Database,GitBranch,Cloud} from 'lucide-react';
 export const profile={name:'Mourad Lechhab',age:22,brand:'NØX',role:'Full Stack Developer & Creative Digital Artist',location:'Morocco',
- email:'your@email.com',whatsapp:'212600000000',instagram:'https://instagram.com/yourhandle',github:'https://github.com/yourhandle',linkedin:'https://linkedin.com/in/yourhandle'};
+ email:'Mouradlechhab15@gmail.com',whatsapp:'212760434854',instagram:'https://www.instagram.com/mourad_lechhab?utm_source=qr',github:'https://github.com/mouradlechhab15-sudo',linkedin:'https://www.linkedin.com/in/mourad-lechhab-17850138a?utm_source=share_via&utm_content=profile&utm_medium=member_ios'};
 export const nav=['About','Skills','Projects','Experience','Contact'];
 export const skills=[
  {name:'HTML5',cat:'Frontend',level:95,icon:Code2},{name:'CSS3',cat:'Frontend',level:92,icon:Palette},
